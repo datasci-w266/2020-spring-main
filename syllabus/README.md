@@ -6,43 +6,36 @@
 [Course Resources](#course-resources)  
 [Schedule and Readings](#schedule-and-readings)  
 
-## Preview!
-This syllabus is a copy of what we used in Fall 2019.  Everything below is subject to change.  We'll update with the 2020 Spring syllabus shortly.
-
-If you want to get started on something while you wait:
-
 * [Piazza](https://piazza.com/berkeley/spring2020/datasciw266) - we'll use this for Q&A, and this will be the fastest way to reach the course staff. Note that you can post anonymously, and/or make posts visible only to instructors for private questions.
-
-## Previous semester material follows...
 
 ## Course Overview
 Understanding language is fundamental to human interaction. Our brains have evolved language-specific circuitry that helps us learn it very quickly; however, this also means that we have great difficulty explaining how exactly meaning arises from sounds and symbols. This course is a broad introduction to linguistic phenomena and our attempts to analyze them with machine learning. We will cover a wide range of concepts with a focus on practical applications such as information extraction, machine translation, sentiment analysis, and summarization.
 
 **Prerequisites:**
 * Language: All assignments will be in Python using Jupyter notebooks, NumPy, and TensorFlow.
-* Time:  There are 5-6 substantial assignments in this course as well as a term project.  Make sure you give yourself enough time to be successful! In particular, you may be in for a rough semester if you have other significant commitments at work or home, or take both this and any of 210 (Capstone), 261, or 271 :)
+* Time:  There are 6-7 substantial assignments in this course as well as a term project.  Make sure you give yourself enough time to be successful! In particular, you may be in for a rough semester if you have other significant commitments at work or home, or take both this and any of 210 (Capstone), 261, or 271 :)
 * [MIDS 207 (Machine Learning)](https://www.ischool.berkeley.edu/courses/datasci/207): We assume you know what gradient descent is.  We'll review simple linear classifiers and softmax at a high level, but make sure you've at least heard of these! You should also be comfortable with linear algebra, which we'll use for vector representations and when we discuss deep learning.
 
 **Contacts and resources:**
 * Course website: [GitHub datasci-w266/2020-spring-main](../../../)
 * [Piazza](https://piazza.com/berkeley/spring2020/datasciw266) - we'll use this for Q&A, and this will be the fastest way to reach the course staff. Note that you can post anonymously, and/or make posts visible only to instructors for private questions.
-* Email list for course staff: [mids-nlp-instructors@googlegroups.com](mailto:mids-nlp-instructors@googlegroups.com)
+* Email list for course staff (expect a somewhat slower response here): [mids-nlp-instructors@googlegroups.com](mailto:mids-nlp-instructors@googlegroups.com)
 
 **Live Sessions:**
-* (Section 2) Tuesday 4 - 5:30p Pacific (Daniel Cer)
-* (Section 1) Tuesday 6:30 - 8p Pacific (James Kunz)
-* (Section 6) Wednesday 6:30 - 8p Pacific (Mike Tamir)
-* (Section 3) Thursday 4 - 5:30p Pacific (Joachim Rahmfeld)
-* (Section 4) Thursday 6:30 - 8p Pacific (Mark Butler)
+* (Section 1) Tuesday 4 - 5:30p Pacific (Daniel Cer)
+* (Section 2) Wednesday 6:30 - 8p Pacific (Mike Tamir)
+* (Section 3) Thursday 4 - 5:30p Pacific (Mark Butler, Matthew Sims)
+* (Section 98) Friday 2 - 3:30p Pacific (Matthew Sims)
+* (Section 99) Friday 4 - 5:30p Pacific (Matthew Sims)
+* (Section 4) Friday 4 - 5:30p Pacific (Mark Butler)
 * (Section 5) Saturday 10a - 11:30a Pacific (Sid J Reddy)
 
 **Teaching Staff Office Hours:**
 
 * **Daniel Cer**: Wednesday at noon Pacific.
-* **Joachim Rahmfeld**: Thursday immediately after his live session
-* **Mark Butler**: Thursday immediately after his live session
+* **Mark Butler**: Thursday and Friday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
-* **James Kunz**: Tuesday immediately after his live session
+* **Matthew Sims**: Thursday 2pm - 3pm PST 
 * **Mike Tamir**: Tuesday immediately after his live session
 * **Drew Plant**: Sunday 11am - 12 PST
 
@@ -115,7 +108,7 @@ We’ll be posting materials to the course [GitHub repo](../../../).
 The course will be taught in Python, and we'll be making heavy use of NumPy, TensorFlow, and Jupyter (IPython) notebooks. We'll also be using Git for distributing and submitting materials. If you want to brush up on any of these, we recommend:
 * **Git tutorials:** [Introduction / Cheat Sheet](https://git-scm.com/docs/gittutorial), or [interactive tutorial](https://try.github.io/)
 * **Python / NumPy:** Stanford's CS231n has [an excellent tutorial](http://cs231n.github.io/python-numpy-tutorial/).
-* **TensorFlow:** We'll go over the basics of TensorFlow in [Assignment 1](../../../tree/master/assignment/a1/).  
+* **TensorFlow:** We'll go over the basics of TensorFlow in [Assignment 2](../../../tree/master/assignment/a2/).  
   [Effective TensorFlow](https://github.com/vahidk/EffectiveTensorflow) is a great reference, ranging from the absolute basics through advanced topics like multi-GPU training, `tf.learn`, and debugging.  
   You can also check out the [tutorials](https://www.tensorflow.org/get_started/) on the TensorFlow website, but these can be somewhat confusing if you're not familiar with the underlying models.
 
@@ -133,7 +126,7 @@ We'll update the table below with assignments as they become available, as well 
 
 *Dates are tentative:* assignments in particular may change topics and dates.  (Updated slides for each week will be posted during the live session week.)
 
-### Live Session Slides: [[available here](https://drive.google.com/drive/u/0/folders/1ozLNFDOCYshNHmrWrZYpowH4BnPe8vxI)]
+### Live Session Slides: [[available here](https://drive.google.com/drive/folders/17yQSEhmC8JObODOxBOXu6bLG8C_i6K_S?usp=sharing)]
 
 ### Deliverables
 
@@ -153,93 +146,20 @@ will be released around the last live session of the week and due approximately 
     <li>Google Cloud
   </ul></td>
   <td></td>
-  <td>September&nbsp;1</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
-  <td><strong>Assignment 1</strong>
-  <ul>
-    <li>Information Theory
-  </ul></td>
-  <td></td>
-  <td>September&nbsp;8</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
-  <td><strong>Assignment 2</strong>
-  <ul>
-    <li>Neural Networks
-  </ul></td>
-  <td></td>
-  <td>September&nbsp;22</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
-  <td><strong>Assignment 3</strong>
-  <ul>
-    <li>Embeddings
-  </ul></td>
-  <td></td>
-  <td>September&nbsp;29</td>
-</tr>
-<tr>
-  <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
-  <td>
-  <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
-  </td>
-  <td></td>
-  <td>September&nbsp;29</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
-  <td><strong>Assignment 4</strong>
-  <ul>
-    <li>Classification
-  </ul></td>
-  <td></td>
-  <td>October&nbsp;6</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
-  <td><strong>Assignment 5</strong>
-  <ul>
-    <li>Language models
-  </ul></td>
-  <td></td>
-  <td>October&nbsp;20</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a6" target="_blank">Assignment&nbsp;6</a></strong>
-  <td><strong>Assignment 6</strong>
-  <ul>
-    <li>Machine Translation
-    <li>Practical Deep Learning
-  </ul></td>
-  <td></td>
-  <td>November&nbsp;17</td>
-</tr>
-<tr>
-  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;7</a></strong>
-  <td><strong>Assignment 7</strong>
-  <ul>
-    <li>BERT
-    <li>Summarization
-  </ul></td>
-  <td></td>
-  <td>November&nbsp;24</td>
+  <td>January&nbsp;12</td>
 </tr>
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
   </td>
   <td></td>
   <td></td>
-  <td><br>due December&nbsp;7<br><strong>(hard deadline)</strong></td>
+  <td><br>due April&nbsp;11<br><strong>(hard deadline)</strong></td>
 </tr>
 <tr><!--- Project Presentations -->
   <td><strong><a href="../project/#presentations" target="_blank">Project&nbsp;Presentations</a></strong></td>
   <td></td>
   <td></td>
-  <td><br>in-class December&nbsp;10-14</td>
+  <td><br>in-class April&nbsp;13-20</td>
 </tr>
 </table>
 
@@ -254,7 +174,7 @@ will be released around the last live session of the week and due approximately 
 <th>Materials</th>
 </tr>
 <tr><!--- Introductions -->
-  <td><strong>Week&nbsp;1-2</strong><br>(August&nbsp;26)</td>
+  <td><strong>Week&nbsp;1-2</strong><br>(January&nbsp;6)</td>
   <td>Introduction
   <br>5.2 Softmax Classification
   <br>5.4 Neural network recap
@@ -271,7 +191,7 @@ will be released around the last live session of the week and due approximately 
   <li>Skim: <a href="http://www.nltk.org/book/ch02.html" target="_blank">NLTK book chapter 2 (data resources)</a>
   <li>Read: <a href="https://www.technologyreview.com/s/602094/ais-language-problem/" target="_blank">AI’s Language Problem (Technology Review)</a>
   <li>Read: <a href="http://nautil.us/issue/54/the-unspoken/the-rise-and-fall-of-the-english-sentence" target="_blank">The Rise and Fall of the English Sentence</a>
-  <li>Read: <a href="https://www.cs.toronto.edu/~hinton/absps/pdp8.pdf">Original backprop paper</a><
+  <li>Read: <a href="https://www.cs.toronto.edu/~hinton/absps/pdp8.pdf">Original backprop paper</a>
   <li><em>Optional:</em> <a href="http://www.newyorker.com/magazine/2007/04/16/the-interpreter-2" target="_blank">The Interpreter (New Yorker)</a>
   <li><em>Optional:</em> <a href="https://www.uio.no/studier/emner/hf/ikos/EXFAC03-AAS/h05/larestoff/linguistics/Chapter%204.(H05).pdf" target="_blank">Introduction to Linguistic Typology</a>
   </ul>
@@ -280,7 +200,7 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 <tr><!--- Sentiment/Classification -->
-  <td><strong>Week&nbsp;3</strong><br>(September&nbsp;10)</td>
+  <td><strong>Week&nbsp;3</strong><br>(January&nbsp;20)</td>
   <td>Classification and Sentiment (up to 2.6)
   </td>
   <td><ul>
@@ -296,7 +216,7 @@ will be released around the last live session of the week and due approximately 
   <li><em>Optional:</em> <a href="https://arxiv.org/pdf/1103.0398v1.pdf" target="_blank">Natural Language Processing (almost) from Scratch</a> (Collobert et al., 2011)
 </tr>
 <tr><!--- Sentiment/Classification -->
-  <td><strong>Week&nbsp;4</strong><br>(September&nbsp;17)</td>
+  <td><strong>Week&nbsp;4</strong><br>(January&nbsp;27)</td>
   <td>Classification and Sentiment (2.7 onwards)
   <p><p>
   <em>Note: you may want to review Async 5.3, 5.4, and 5.5.</em>
@@ -307,7 +227,7 @@ will be released around the last live session of the week and due approximately 
   <td></td>
 </tr>
 <tr><!--- n-grams -->
-  <td><strong>Week&nbsp;5</strong><br>(September&nbsp;24)</td>
+  <td><strong>Week&nbsp;5</strong><br>(February&nbsp;3)</td>
   <td>Language Modeling I,
   <br>4.1-4.4, 4.8 - 4.11</td>
   <td><ul>
@@ -337,13 +257,14 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 <tr><!--- Neural language models -->
-  <td><strong>Week&nbsp;6</strong><br>(October&nbsp;1)</td>
+  <td><strong>Week&nbsp;6</strong><br>(February&nbsp;10)</td>
   <td>Language Modeling II</td>
   <td><ul>
   <li>Neural Net LMs
   <li>Word embeddings
   <li>Hierarchical softmax
-  <li>State of the art: Recurrent Neural Nets
+  <li>Recurrent Neural Nets
+  <li>State of the art: Advanced Embeddings and Transfer Learning
   </ul></td>
   <td><ul>
   <li>Read: <a href="http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf" target="_blank">A Neural Probabilistic Language Model</a> (Bengio et al. 2003)
@@ -372,10 +293,9 @@ will be released around the last live session of the week and due approximately 
   <p>
   </ul></td>
 </tr>
-<tr><!--- Week 6 -->
-  <td><strong>Week&nbsp;7&nbsp;-&nbsp;8</strong><br>(October&nbsp;8)</td>
-  <td>Machine Translation I
-  <br>Machine Translation II</td>
+<tr><!--- Week 7 and 8 -->
+  <td><strong>Week&nbsp;7</strong><br>(February&nbsp;17)</td>
+  <td>Machine Translation I</td>
   <td><ul>
   <li>Word- and phrase-based MT
   <li>IBM alignment models
@@ -388,8 +308,35 @@ will be released around the last live session of the week and due approximately 
   <li><em>Optional:</em> <a href="https://arxiv.org/abs/1609.08144" target="_blank">Google’s Neural Machine Translation System</a>
   <li><em>Optional:</em> <a href="http://distill.pub/2016/augmented-rnns/#attentional-interfaces" target="_blank">Attention and Augmented Recurrent Neural Networks</a> (section on “Attentional Interfaces” has an awesome visualization of an MT example, showing alignments)
   </ul></td>
-<tr>
-  <td><strong>Week&nbsp;9</strong><br>(October&nbsp;22)</td>
+    <tr><!--- Practical Machine Learning  week 8-->
+  <td><strong>Week&nbsp;8</strong><br>(February&nbsp;24)</td>
+  <td>Machine Translation II</td>
+  <td><ul>
+  <li>Self-Attention
+  <li>Transformers
+  <li>Transfer Learning
+  </ul></td>
+  <td><ul>
+  </ul>
+  <p>
+  </td>
+</tr>
+  <tr><!--- Practical Machine Learning  week 9-->
+  <td><strong>Week&nbsp;9</strong><br>(March&nbsp;2)</td>
+  <td>No Async</td>
+  <td><ul>
+  <li>Practical Deep Learning Tips
+  <li>Xavier Initialization
+  <li>Batch Normalization
+  <li>Optimizers
+  </ul></td>
+  <td><ul>
+  </ul>
+  <p>
+  </td>
+</tr>
+<tr><!--- Week 10 -->
+  <td><strong>Week&nbsp;10</strong><br>(March&nbsp;9)</td>
   <td>Summarization</td>
   <td><ul>
   <li>Single- vs. multi-document summarization
@@ -405,21 +352,8 @@ will be released around the last live session of the week and due approximately 
   <p>
   </td>
 </tr>
-<tr><!--- Practical Machine Learning -->
-  <td><strong>Week&nbsp;9</strong><br>(October&nbsp;29)</td>
-  <td>Practical Deep Learning Tips</td>
-  <td><ul>
-  <li>Xavier
-  <li>Batch Normalization
-  <li>Optimizers
-  </ul></td>
-  <td><ul>
-  </ul>
-  <p>
-  </td>
-</tr>
 <tr><!--- Entities -->
-  <td><strong>Week&nbsp;10</strong><br>(November&nbsp;5)</td>
+  <td><strong>Week&nbsp;11</strong><br>(March&nbsp;16)</td>
   <td>Entities</td>
   <td><ul>
   <li>From syntax to semantics
@@ -436,13 +370,14 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 <tr><!--- Information Retrieval -->
-  <td><strong>Week&nbsp;11</strong><br>(November&nbsp;19)</td>
+  <td><strong>Week&nbsp;12</strong><br>(March&nbsp;30)</td>
   <td>Information Retrieval</td>
   <td><ul>
   <li>Building a Search Index
   <li>Ranking
   <li>TF-IDF
   <li>Click signals
+  <li>Neural IR models
   </ul></td>
   <td><ul>
   <li>Read: <a href="http://static.googleusercontent.com/media/research.google.com/en//archive/googlecluster-ieee.pdf" target="_blank">Web Search for a Planet</a> (Google)
@@ -455,7 +390,7 @@ will be released around the last live session of the week and due approximately 
 </tr>
 
 <tr><!--- POS Tagging -->
-  <td><strong>Week&nbsp;12</strong><br>(November&nbsp;26)</td>
+  <td><strong>Week&nbsp;13</strong><br>(April&nbsp;6)</td>
   <td><a href="https://www.youtube.com/playlist?list=PLh1VT8Lm3apRPGB1uKZsMyMt1DmUf_ItE">Part of Speech Supplementary Videos</a></td>
   <td><ul>
   <li>Tag sets
@@ -475,7 +410,7 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 <tr><!--- Dependency Parsing -->
-  <td><strong>Week&nbsp;12&nbsp;(cntd)</strong><br>(November&nbsp;26)</td>
+  <td><strong>Week&nbsp;13&nbsp;(cntd)</strong><br>(April&nbsp;6)</td>
   <td>Dependency Parsing</td>
   <td><ul>
   <li>Dependency trees
@@ -491,11 +426,11 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 <tr><!--- Constituency Parsing -->
-  <td><strong>Week&nbsp;13</strong><br>(December&nbsp;3)</td>
+  <td><strong>Week&nbsp;13&nbsp;(cntd)</strong><br>(April&nbsp;6)</td>
   <td>Constituency Parsing</td>
   <td><ul>
   <li>Context-free grammars (CFGs)
-  <li>CYK algorithm
+  <li>CKY algorithm
   <li>Probabilistic CFGs
   <li>Lexicalized grammars, split-merge, and EM
   </ul></td>
