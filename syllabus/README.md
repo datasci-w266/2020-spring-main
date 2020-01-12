@@ -148,6 +148,15 @@ will be released around the last live session of the week and due approximately 
   <td></td>
   <td>January&nbsp;12</td>
 </tr>
+<tr>
+  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
+  <td><strong>Assignment 1</strong>
+  <ul>
+    <li>Information Theory
+  </ul></td>
+  <td></td>
+  <td>January&nbsp;19</td>
+</tr>
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
   </td>
