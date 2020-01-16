@@ -157,6 +157,14 @@ will be released around the last live session of the week and due approximately 
   <td></td>
   <td>January&nbsp;19</td>
 </tr>
+<tr>
+  <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
+  <td>
+  <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
+  </td>
+  <td></td>
+  <td>February&nbsp;9</td>
+</tr>
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>
   </td>

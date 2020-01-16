@@ -22,8 +22,10 @@ From published, peer-reviewed, sources.
 * (Of course, for academic honesty, when you use them, you should still cite project reports, GitHub, and blog posts.  But they do not stand in for proper research when motivating your approach/claims.)
 
 ## Analysis is critical
-
 Explain your errors in terms of your model.  Use the work you put in understanding your model to good use!  Projects with one model and really good error analysis are (much) better than projects with a “throw every algorithm at the wall” with little thought about what they’re doing.
+
+## Data selection
+Data selection as with all ML projects is a critical component. You generally are permited to use any data sets to which you have access for your project which are appropriately sampled, of sufficient volume, and otherwise leveraged with good methodology to acomplish your project goals. Howevever, please keep in mind that instructors will potentially need to be able to review any data that you use for your project without signing an NDA, which rules out the use of private propriatary data for your project. 
 
 ## Concrete example
 A couple of (not real) sentences inspired from the above hints.  Imagine your project is on some classification task:
