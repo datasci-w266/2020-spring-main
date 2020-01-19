@@ -35,7 +35,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Daniel Cer**: Wednesday at noon Pacific.
 * **Mark Butler**: Thursday and Friday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
-* **Matthew Sims**: Thursday 1pm - 2pm PST 
+* **Matthew Sims**: Thursday 2pm - 3pm PST 
 * **Mike Tamir**: Tuesday immediately after his live session
 * **Drew Plant**: Monday 6pm - 7 PST
 
@@ -148,7 +148,7 @@ will be released around the last live session of the week and due approximately 
   <td></td>
   <td>January&nbsp;12</td>
 </tr>
-<tr>
+<tr> <!-- a1 -->
   <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
   <td><strong>Assignment 1</strong>
   <ul>
@@ -157,7 +157,16 @@ will be released around the last live session of the week and due approximately 
   <td></td>
   <td>January&nbsp;19</td>
 </tr>
-<tr>
+<tr>  <!-- a2 -->
+  <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
+  <td><strong>Assignment 2</strong>
+  <ul>
+    <li>Neural Networks
+  </ul></td>
+  <td></td>
+  <td>January&nbsp;26</td>
+</tr>
+<tr> <!-- project proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
   <td>
   <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
