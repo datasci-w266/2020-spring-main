@@ -84,7 +84,7 @@ For project ideas, take a look at the final projects from [previous](example-com
 
 Additionally, we've put some of the top projects from the last semester in [a shared drive folder](https://drive.google.com/open?id=1bPRt9qWU4K1uqHiaZ3yt5hw13dZtvUq6).
 
-Also see below for NLP conferences - [ACL](http://aclweb.org/anthology/P/P17/) and [EMNLP](http://aclweb.org/anthology/D/D17/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
+Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2019/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2019/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
 
 ## Project Proposal
 
@@ -102,10 +102,10 @@ Be sure to address:
 You must include four references to relevant papers for the technique and/or dataset you’ll be using. Projects should be well-situated with respect to existing work, and so we do require that references be research papers or technical publications of similar scope. While you may also want to cite reference works, textbooks, or code documentation, these don’t count toward the total. Some resources that may be helpful:
 - (start here) [The Association of Computational Linguistics (ACL) Anthology](http://aclweb.org/anthology/), which indexes papers from most of the top NLP conferences.
 - The [ACM Digital Library](http://dl.acm.org/) is also a great resource, indexing across a number of CS conferences. In particular, [SigKDD](http://www.kdd.org/) (Knowledge Discovery and Data Mining) and [WSDM](http://www.wsdm-conference.org/) (Web Search and Data Mining) might be useful.
-- [NIPS](https://papers.nips.cc/) and [ICML](http://proceedings.mlr.press/v70/) are the top machine learning conferences; these are good places to look if you want to use neural networks.
+- [NIPS](https://papers.nips.cc/) and [ICML](http://proceedings.mlr.press/v97/) are the top machine learning conferences; these are good places to look if you want to use neural networks.
 - [Google Scholar](https://scholar.google.com/) and the [arXiv](https://arxiv.org/) are great to find specific papers.
 
-This year’s NLP conferences might be good for inspiration as well, or if you just want a sense of what people in the field are working on: [NAACL](http://aclweb.org/anthology/N/N16/), [ACL](http://aclweb.org/anthology/P/P17/), [EMNLP](http://aclweb.org/anthology/D/D17/).
+This year’s NLP conferences might be good for inspiration as well, or if you just want a sense of what people in the field are working on: [NAACL](https://www.aclweb.org/anthology/events/naacl-2019/), [ACL](https://www.aclweb.org/anthology/events/acl-2019/), [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2019/).
 
 Between Week 2 and Week 4, the instructors will be holding special discussion sections (during OH) to talk about how to search the literature and read NLP papers. Each session will also include a guided discussion of a specific paper. We'll release a schedule and a list of papers early in the semester.
 
@@ -142,7 +142,7 @@ Expect that your group will give a short (~5 min) presentation summarizing your 
 
 ## Final Submission
 
-This will be a final report in the style of a research paper. Aim for 4-6 pages in length, or somewhere between an ACL [short paper](http://aclweb.org/anthology/P/P16/#2000) and a [long paper](http://aclweb.org/anthology/P/P16/#1000), with sections similar to the following:
+This will be a final report in the style of a research paper. Aim for 4-6 pages in length, or somewhere between an ACL [short paper](https://acl2018.org/call-for-papers#short-papers) and a [long paper](https://acl2018.org/call-for-papers#long-papers), with sections similar to the following:
 - **Abstract**
 - **Introduction** (motivation for your work)
 - **Background** (literature review, or related work)
@@ -152,7 +152,7 @@ This will be a final report in the style of a research paper. Aim for 4-6 pages 
 
 **Privacy:** If you don't want us to release your report publicly, please indicate that in the form below.
 
-Please submit your PDF (and your project's code) to your course GitHub and then complete [this form](https://forms.gle/Ctz9q5RFbFwSDKiK8).
+Please submit your PDF (and your project's code) to your course GitHub and then complete [this form (tbd)]().
 
 We will be providing feedback to teams based on the rubric above.  This will take us some time (potentially up to a month after the deadline) and likely term grades will be released ahead of that feedback.
 

@@ -9,7 +9,7 @@ class AnswersTest(unittest.TestCase):
             self.answers = yaml.safe_load(f.read())
 
     def test_correct_num_questions(self):
-            self.assertEqual(23, len(self.answers))
+            self.assertEqual(19, len(self.answers))
 
 
 

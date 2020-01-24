@@ -35,7 +35,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Daniel Cer**: Wednesday at noon Pacific.
 * **Mark Butler**: Thursday and Friday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
-* **Matthew Sims**: Thursday 1pm - 2pm PST 
+* **Matthew Sims**: Thursday 2pm - 3pm PST 
 * **Mike Tamir**: Wednesday immediately after his live session
 * **Drew Plant**: Monday 6pm - 7 PST
 
