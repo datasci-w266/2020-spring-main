@@ -166,6 +166,16 @@ will be released around the last live session of the week and due approximately 
   <td></td>
   <td>January&nbsp;26</td>
 </tr>
+<tr> <!-- a3 -->
+  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
+  <td><strong>Assignment 3</strong>
+  <ul>
+    <li>Embeddings
+	<li>ML Fairness
+  </ul></td>
+  <td>January&nbsp;25</td>
+  <td>February&nbsp;2</td>
+</tr>
 <tr> <!-- project proposal -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
   <td>
@@ -173,6 +183,42 @@ will be released around the last live session of the week and due approximately 
   </td>
   <td></td>
   <td>February&nbsp;9</td>
+</tr>
+<tr> <!-- a4 -->
+  <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
+  <td><strong>Assignment 4</strong>
+  <ul>
+    <li>TBD
+  </ul></td>
+  <td>February&nbsp;8</td>
+  <td>February&nbsp;16</td>
+</tr>
+<tr> <!-- a5 -->
+  <td><strong><a href="../assignment/a5" target="_blank">Assignment&nbsp;5</a></strong>
+  <td><strong>Assignment 5</strong>
+  <ul>
+    <li>TBD
+  </ul></td>
+  <td>February&nbsp;15</td>
+  <td>February&nbsp;23</td>
+</tr>
+<tr> <!-- a6 -->
+  <td><strong><a href="../assignment/a6" target="_blank">Assignment&nbsp;6</a></strong>
+  <td><strong>Assignment 6</strong>
+  <ul>
+    <li>TBD
+  </ul></td>
+  <td>February&nbsp;22</td>
+  <td>March&nbsp;1</td>
+</tr>
+<tr> <!-- a7 -->
+  <td><strong><a href="../assignment/a7" target="_blank">Assignment&nbsp;7</a></strong>
+  <td><strong>Assignment 7</strong>
+  <ul>
+    <li>TBD
+  </ul></td>
+  <td>March&nbsp;7</td>
+  <td>March&nbsp;15</td>
 </tr>
 <tr><!--- Project Reports -->
   <td><strong><a href="../project/#final-submission" target="_blank">Project&nbsp;Reports</a></strong>

@@ -60,18 +60,19 @@ class TFEmbeddingVizWrapper(object):
         Args:
           Wv: (numpy.ndarray) |V| x d matrix of word embeddings
         """
-        with tf.Graph().as_default(), tf.Session() as session:
+        #with tf.Graph().as_default(), tf.Session() as session:
+        with tf.Graph().as_default(), tf.compat.v1.Session() as session:
             ##
             # Feed embeddings to tf, and save.
             embedding_var = tf.Variable(Wv, name=name, dtype=tf.float32)
-            session.run(tf.global_variables_initializer())
+            session.run(tf.compat.v1.global_variables_initializer())
 
-            saver = tf.train.Saver()
+            saver = tf.compat.v1.train.Saver()
             saver.save(session, self.CHECKPOINT_FILE, 0)
 
             ##
             # Save metadata
-            summary_writer = tf.summary.FileWriter(self.LOGDIR)
+            summary_writer = tf.compat.v1.summary.FileWriter(self.LOGDIR)
             config = projector.ProjectorConfig()
             embedding = config.embeddings.add()
             embedding.tensor_name = embedding_var.name
