@@ -35,7 +35,7 @@ Understanding language is fundamental to human interaction. Our brains have evol
 * **Daniel Cer**: Wednesday at noon Pacific.
 * **Mark Butler**: Thursday and Friday immediately after his live session
 * **Sid J Reddy**: Saturday immediately after his live session
-* **Matthew Sims**: Thursday 1pm - 2pm PST 
+* **Matthew Sims**: Thursday 2pm - 3pm PST 
 * **Mike Tamir**: Wednesday immediately after his live session
 * **Drew Plant**: Monday 6pm - 7 PST
 
@@ -188,7 +188,8 @@ will be released around the last live session of the week and due approximately 
   <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
   <td><strong>Assignment 4</strong>
   <ul>
-    <li>TBD
+    <li>Classification
+    <li>Convolutional Neural Nets
   </ul></td>
   <td>February&nbsp;8</td>
   <td>February&nbsp;16</td>
@@ -308,6 +309,9 @@ will be released around the last live session of the week and due approximately 
     <li>Smoothing methods
     <li>Representations of meaning
     <li>Distributed representations
+    <li>Neural Net LMs
+    <li>Word embeddings
+    <li>Hierarchical softmax
   </ul></td>
   <td>Language model introduction:<ul>
   <li>Skim: <a href="http://www.cs.berkeley.edu/~klein/cs294-5/chen_goodman.pdf" target="_blank">Chen and Goodman Survey</a>
@@ -332,9 +336,6 @@ will be released around the last live session of the week and due approximately 
   <td><strong>Week&nbsp;6</strong><br>(February&nbsp;10)</td>
   <td>Language Modeling II</td>
   <td><ul>
-  <li>Neural Net LMs
-  <li>Word embeddings
-  <li>Hierarchical softmax
   <li>Recurrent Neural Nets
   <li>State of the art: Advanced Embeddings and Transfer Learning
   </ul></td>
