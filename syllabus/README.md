@@ -207,7 +207,7 @@ will be released around the last live session of the week and due approximately 
   <td><strong><a href="../assignment/a6" target="_blank">Assignment&nbsp;6</a></strong>
   <td><strong>Assignment 6</strong>
   <ul>
-    <li>TBD
+    <li>Machine Translation
   </ul></td>
   <td>February&nbsp;22</td>
   <td>March&nbsp;1</td>
