@@ -216,7 +216,7 @@ will be released around the last live session of the week and due approximately 
   <td><strong><a href="../assignment/a7" target="_blank">Assignment&nbsp;7</a></strong>
   <td><strong>Assignment 7</strong>
   <ul>
-    <li>TBD
+    <li>Various Topics
   </ul></td>
   <td>March&nbsp;7</td>
   <td>March&nbsp;15</td>

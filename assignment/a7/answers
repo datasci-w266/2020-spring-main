@@ -1,0 +1,256 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 5 parts for a total of 27 points.
+# For numerical answers, copy and paste at least 5 significant figures.
+# - Project Small Model (2 points)
+# - Transformers (2 points)
+# - BERT and Transfer Learning (4 points)
+# - Practical Machine Learning (13 points)
+# - Summarization (6 points)
+
+
+
+###################################################################
+###################################################################
+## Project Small Model (2 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Project Progress (unrelated to a notebook) (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What are the dimensions of your bottom most hidden layer?
+project_small_model_a_1: [d0, d1]
+
+# Question 2 (/1): How many hidden layers are in your model?
+project_small_model_a_2: 0
+
+# Question 3 (/0): What is your starting loss?
+project_small_model_a_3: 0.00000
+
+# Question 4 (/0): What is your ending loss?
+project_small_model_a_4: 0.00000
+
+# Question 5 (/0): How many epochs did you train?
+project_small_model_a_5: 0
+
+
+
+###################################################################
+###################################################################
+## Transformers (2 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Transformers (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): How are Q, K, and V constructed in the Attention is All You Need Paper?
+# (This question is multiple choice.  Delete all but the correct answer).
+transformers_a_1: 
+ - A neural network applied to each word
+ - Three learned linear transforms of the representation of each word
+ - Parameters learned while training the model
+
+# Question 2 (/1): Q, K, V are three vectors used in the Attention is All You Need paper.  In the simple attention model, we only had a query and hidden state values.  Which of these played the role of the key in that simpler model?
+# (This question is multiple choice.  Delete all but the correct answer).
+transformers_a_2: 
+ - query
+ - hidden state values
+ - none of the above
+
+
+
+###################################################################
+###################################################################
+## BERT and Transfer Learning (4 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Transfer Learning (1 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Transfer learning is...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_a_1: 
+ - the use of a generalized architecture to solve an information transfer problem
+ - the use of a generalized model built on some task(s) being used to solve another task
+ - the use of a specialized model to improve performance on a language problem
+
+
+# ------------------------------------------------------------------
+# | Section (b): BERT (3 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): BERT is trained with a next sentence prediction task and...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_1: 
+ - a masked self-attention model task
+ - a masked language model task
+ - a randomly permuted sequence factorization model task
+
+# Question 2 (/1): BERT solves the large vocabulary problem with...
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_2: 
+ - wordpart tokenization
+ - wordpiece tokenization
+ - byte pair encoding tokenization
+
+# Question 3 (/1): BERT's decoder architecture allows it to generate seemingly fluent text. True or False?
+# (This question is multiple choice.  Delete all but the correct answer).
+bert_and_transfer_learning_b_3: 
+ - True
+ - False
+
+
+
+###################################################################
+###################################################################
+## Practical Machine Learning (13 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Activation functions (7 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What is the derivative of sigmoid(z) as z approaches infinity?
+practical_machine_learning_a_1: 0
+
+# Question 2 (/1): What is the derivative of sigmoid(z) as z approaches -infinity?
+practical_machine_learning_a_2: 0
+
+# Question 3 (/1): What can this cause?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_3: 
+ - Layers closest to the features in the network may not update much as the product of partial derivatives is close to zero
+ - Layers closest to the outputs in the network may not be able to provide a strong classifier when effectively building on a random projection of the original features.
+ - All of the above
+
+# Question 4 (/1): What can we do about this?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_4: 
+ - Initialize W matrices using Xavier to ensure that inputs to the nonlinearity are close to zero mean.
+ - Use activation (nonlinearity) functions that do not have a broader low-gradient region
+ - Use batch normalization to keep activations close to zero further into training
+ - All of the above
+
+# Question 5 (/1): What is the role of gamma in the Batch Normalization formula?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_5: 
+ - Give the network an opportunity to learn a scaling better than the average std dev of the affine outputs.
+ - Give the network an opportunity to unlearn the zero centering of the affine outputs.
+ - All of the above.
+
+# Question 6 (/1): What is the role of beta in the Batch Normalization formula?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_6: 
+ - Give the network an opporunity to learn a scaling better than the average std dev of the affine outputs.
+ - Give the network an opporunity to unlearn the zero centering of the affine outputs.
+ - All of the above.
+
+# Question 7 (/1): If using batch norm, does the b in the affine (xW + b) layer do anything?  If so, why?  If not, why not?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_a_7: 
+ - Yes, it learns an initial offset.
+ - Yes, if you initialize it to 1.
+ - No, it will just be undone in the normalization step and Beta takes its role post-normalization.
+
+
+# ------------------------------------------------------------------
+# | Section (b): Optimizers (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What does momentum do?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_b_1: 
+ - Similar to stochastic gradient descent, but uses a larger batch size, usually up to the full data set.
+ - Ensures the learning rate stays constant over all of the epochs.
+ - The gradient and learning rate is the only thing that impacts the velocity of the update, rather than the position.  This allows the model to keep making progress in face of plateaus.  Velocity goes to zero exponentially in absence of a gradient.
+
+# Question 2 (/1): What ideas do Adam and Adagrad also incorporate?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_b_2: 
+ - Provides a variable learning rate based on how much has already been backpropagated into that parameter.
+ - Late in training makes bigger updates to a rare word embedding than to a frequently occuring word embedding
+ - All of the above.
+
+
+# ------------------------------------------------------------------
+# | Section (c): Learning curves (4 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Training loss goes to zero.  Eval loss is still very bad.  What is most likely wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_1: 
+ - Model has insufficient capacity
+ - Overfitting
+ - Learning rate too high
+
+# Question 2 (/1): Training and eval loss are high and barely move.  What is most likely wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_2: 
+ - Model has insufficient capacity
+ - Learning rate too high
+ - Overfitting
+
+# Question 3 (/1): Training and eval loss go up, and keep going up.  What is most likely wrong?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_3: 
+ - Overfitting
+ - Model has insufficient capacity
+ - Learning rate too high
+
+# Question 4 (/1): What is an efficient use of your time when first starting to train a model?
+# (This question is multiple choice.  Delete all but the correct answer).
+practical_machine_learning_c_4: 
+ - Play with hyperparameters to find a starting point where it can memorize 1000 examples in a few minutes
+ - Train the model overnight and see if it makes any progress
+ - Train the model on your full training set for at least 10 epochs
+
+
+
+###################################################################
+###################################################################
+## Summarization (6 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (a): Overview (6 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Abstractive summaries consist of...
+# (This question is multiple choice.  Delete all but the correct answer).
+summarization_a_1: 
+ - ... the first paragraph of text from the original document
+ - ... new language summarizing the key points from the original document
+ - ... a word cloud of most frequently occuring terms
+
+# Question 2 (/1): Extractive summaries consist of...
+# (This question is multiple choice.  Delete all but the correct answer).
+summarization_a_2: 
+ - ... a subset of the text from the original document
+ - ... new language summarizing the key points from the original document
+ - ... a translation from the source language to the target language
+
+# Question 3 (/1): ROUGE is related to BLEU in that it...
+# (This question is multiple choice.  Delete all but the correct answer).
+summarization_a_3: 
+ - discourages text that is not in the reference summary
+ - encourages fluency at the expense of faithfulness
+ - rewards text in the reference summary, allowing the length limit to control concision
+
+# Question 4 (/3): Get To The Point takes inspiration from both abstractive and extractive techniques.  How does it choose text from the original document to extract?
+# (This question is multiple choice.  Delete all but the correct answer).
+summarization_a_4: 
+ - predicts spans of text to copy
+ - samples directly from the attention mechanism
+ - sample from a probability distribution mixture between attention and RNN sourced material
