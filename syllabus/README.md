@@ -226,13 +226,13 @@ will be released around the last live session of the week and due approximately 
   </td>
   <td></td>
   <td></td>
-  <td><br>due April&nbsp;11<br><strong>(hard deadline)</strong></td>
+  <td><strong>CHANGED</strong><br>now due April&nbsp;20<br><strong>(hard deadline)</strong></td>
 </tr>
 <tr><!--- Project Presentations -->
   <td><strong><a href="../project/#presentations" target="_blank">Project&nbsp;Presentations</a></strong></td>
   <td></td>
   <td></td>
-  <td><br>in-class April&nbsp;13-20</td>
+  <td><br>in-class April&nbsp;13-18</td>
 </tr>
 </table>
 
