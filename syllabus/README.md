@@ -462,61 +462,64 @@ will be released around the last live session of the week and due approximately 
   </td>
 </tr>
 
-<tr><!--- POS Tagging -->
+<tr><!--- Parsing and POS Tagging -->
   <td><strong>Week&nbsp;13</strong><br>(April&nbsp;6)</td>
-  <td><a href="https://www.youtube.com/playlist?list=PLh1VT8Lm3apRPGB1uKZsMyMt1DmUf_ItE">Part of Speech Supplementary Videos</a></td>
+
+  <td><a href="https://www.youtube.com/playlist?list=PLh1VT8Lm3apRPGB1uKZsMyMt1DmUf_ItE">Part of Speech Supplementary Videos</a>
+<p><p>
+9.1, 9.2, 9.3
+<p>
+10.1, 10.2, 10.3
+</td>
+
+
   <td><ul>
-  <li>Tag sets
-  <li>Most frequent tag baseline
   <li>HMM/CRF models
+  <li>Transition-based dependency parsing
+  <li>CKY-based constituency parsing
   </ul>
-  <b>Note:</b> Section 7.6 this week in the async is optional.
   </td>
+
+
   <td><ul>
-  <li>Read: <a href="http://www.nltk.org/book/ch05.html" target="_blank">NLTK book chapter 5: Categorizing and Tagging Words</a>
+  <li><em>Optional:</em> <a href="http://www.nltk.org/book/ch05.html" target="_blank">NLTK book chapter 5: Categorizing and Tagging Words</a>
   </ul>
   <p>
   <br>
   <a href="https://hmm-dot-nlp-visualizations.appspot.com/hmm?sentence=James+ate+the+food&vizMode=viterbi&numFormat=log" target="_blank">[Interactive HMM Demo]</a>
+  <ul>
   <li>Read: <a href="https://arxiv.org/pdf/1104.2086.pdf" target="_blank">A Universal Part-of-Speech Tagset</a>
-  <li>Read: <a href="http://nlp.stanford.edu/pubs/CICLing2011-manning-tagging.pdf" target="_blank">Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?</a>
-  </td>
-</tr>
-<tr><!--- Dependency Parsing -->
-  <td><strong>Week&nbsp;13&nbsp;(cntd)</strong><br>(April&nbsp;6)</td>
-  <td>Dependency Parsing</td>
-  <td><ul>
-  <li>Dependency trees
-  <li>Transition-based parsing: Arc&#8209;standard, Arc&#8209;eager
-  <li>Graph based parsing: Eisner Algorithm, Chu&#8209;Liu&#8209;Edmonds
-  </ul></td>
-  <td><ul>
   <li>Read: <a href="https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html" target="_blank">SyntaxNet (Parsey McParseface)</a>
-  <li>Read: <a href="https://web.stanford.edu/~jurafsky/slp3/14.pdf" target="_blank">Dependency Parsing (J&M Chapter 14)</a>
-  <li><em>Optional:</em> <a href="http://cs.stanford.edu/people/danqi/papers/emnlp2014.pdf" target="_blank">A Fast and Accurate Dependency Parser using Neural Networks</a> (Chen & Manning 2014)
-  </ul>
-  <p>
-  </td>
-</tr>
-<tr><!--- Constituency Parsing -->
-  <td><strong>Week&nbsp;13&nbsp;(cntd)</strong><br>(April&nbsp;6)</td>
-  <td>Constituency Parsing</td>
-  <td><ul>
-  <li>Context-free grammars (CFGs)
-  <li>CKY algorithm
-  <li>Probabilistic CFGs
-  <li>Lexicalized grammars, split-merge, and EM
-  </ul></td>
-  <td><ul>
-  <li>Read: <a href="http://www.nltk.org/book/ch08.html" target="_blank">NLTK book chapter 8 (analyzing sentence structure)</a>
-  <li>Skim: <a href="http://ilpubs.stanford.edu:8091/~klein/unlexicalized-parsing.pdf" target="_blank">Accurate Unlexicalized Parsing</a> (Klein & Manning 2003)
+  <li><em>Optional:</em> <a href="http://nlp.stanford.edu/pubs/CICLing2011-manning-tagging.pdf" target="_blank">Part-of-Speech Tagging from 97% to 100%: Is It Time for Some Linguistics?</a>
+  <li>Skim: <a href="https://web.stanford.edu/~jurafsky/slp3/15.pdf" target="_blank">Dependency Parsing (J&M Chapter 15)</a>
+  <li><em>Optional:</em> <a href="http://cs.stanford.edu/people/danqi/papers/emnlp2014.pdf" target="_blank">A Fast 
+and Accurate Dependency Parser using Neural Networks</a> (Chen & Manning 2014)
+  <li>Skim: <a href="http://www.nltk.org/book/ch08.html" target="_blank">NLTK book chapter 8 (analyzing sentence structure)</a>
+  <li>Skim: <a href="https://web.stanford.edu/~jurafsky/slp3/13.pdf" target="_blank">Constituency Parsing (J&M Chapter 13)</a>
+  <li>Skim: <a href="http://ilpubs.stanford.edu:8091/~klein/unlexicalized-parsing.pdf" target="_blank">Accurate Unl
+exicalized Parsing</a> (Klein & Manning 2003)
   <li>Play: <a href="http://nlp.stanford.edu:8080/parser/" target="_blank">Stanford parser</a> (online demo)
-  <li><em>Optional / reference:</em> <a href="http://www.surdeanu.info/mihai/teaching/ista555-fall13/readings/PennTreebankConstituents.html" target="_blank">Penn Treebank Constituent Tags</a>
-  </ul>
+  <li><em>Optional / reference:</em> <a href="http://www.surdeanu.info/mihai/teaching/ista555-fall13/readings/PennT
+reebankConstituents.html" target="_blank">Penn Treebank Constituent Tags</a>
+  
   <p>
   <a href="https://cky-dot-nlp-visualizations.appspot.com/cky?sentence=James+ate+the+food" target="_blank">[Interactive CKY Demo]</a>
+  </ul>
   </td>
 </tr>
+
+<tr><!--- In Class Presentations -->
+  <td><strong>Week&nbsp;14&nbsp;</strong><br>(April&nbsp;13)</td>
+  <td></td>
+  <td><ul>
+  <li>In-class project presentations
+  </ul></td>
+  <td><ul>
+  </ul>
+  <p>
+  </td>
+</tr>
+
 </table>
 
 Thanks for a great semester!
