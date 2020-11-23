@@ -82,9 +82,18 @@ For project ideas, take a look at the final projects from [previous](example-com
 - Analysis of gender roles or power dynamics in movie dialogues
 - Explore techniques for interpreting “black box” / neural models for language
 
-Additionally, we've put some of the top projects from the last semester in [a shared drive folder](https://drive.google.com/open?id=1bPRt9qWU4K1uqHiaZ3yt5hw13dZtvUq6).
+Additionally, we've put some of the top projects from the last semester in [a shared drive folder](https://drive.google.com/open).
 
 Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2019/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2019/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
+
+<!-- ## Draft Project Proposal
+The project is a major part of this class and we want to make sure you get off on a good footing.  We will provide a form for you to fill out where you will have to answer five basic questions about what you are considering:
+- What type of NLP problem are you wanting to address in your project?
+- What kind of neural architecture are you proposing to use?
+- Which data set is traditionally used to address the problem?
+- Which data set are you considering using for your project?
+- Reference to one paper published in 2019 or 2020 that addresses the problem
+-->
 
 ## Project Proposal
 
@@ -109,7 +118,7 @@ This year’s NLP conferences might be good for inspiration as well, or if you j
 
 Between Week 2 and Week 4, the instructors will be holding special discussion sections (during OH) to talk about how to search the literature and read NLP papers. Each session will also include a guided discussion of a specific paper. We'll release a schedule and a list of papers early in the semester.
 
-Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and send the link to mids-nlp-instructors@googlegroups.com with **a subject of <your live session instructor(s)> - Project Proposal**.  We'll provide feedback as in-line comments, which can be more convenient than an email thread.
+Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and submit a link to you proposal via [this form](https://forms.gle/).  We'll provide feedback as in-line comments, which can be more convenient than an email thread.
 _Please no Microsoft Word documents!_
 
 ## Milestone (optional)
@@ -130,7 +139,7 @@ For the milestone, your writeup should have sections similar to the following, i
 - **Results and discussion** (for your baseline model, though feel free to include material for anything else you’ve done)
 - **Next Steps** section for work you plan to do before submitting the final version (you’ll remove this section and replace it with your conclusions, final results and analysis in your final report)
 
-The easiest way to write your report is LaTeX; the standard ACL template is available [here](http://acl2018.org/call-for-papers/#paper-submission-and-templates) (or, on Overleaf [here](https://www.overleaf.com/latex/templates/template-for-2-columns-acl-proceedings-style/bdxxrbqzsmpv#.WGV0frYrLdR)). However, you’re welcome to typeset in Microsoft Word, Google Docs, or the editor of your choice as long as you can export to PDF.
+The easiest way to write your report is LaTeX; the standard ACL template is available [here](http://acl2020.org/downloads/acl2020-templates.zip) (or, on Overleaf [here](https://www.overleaf.com/latex/templates/acl-2020-proceedings-template/zsrkcwjptpcd)). However, you’re welcome to typeset in Microsoft Word, Google Docs, or the editor of your choice as long as you can export to PDF.
 
 You should also share your code with us via GitHub.  Just include a link to your GitHub.
 
@@ -142,7 +151,7 @@ Expect that your group will give a short (~5 min) presentation summarizing your 
 
 ## Final Submission
 
-This will be a final report in the style of a research paper. Aim for 4-6 pages in length, or somewhere between an ACL [short paper](https://acl2018.org/call-for-papers#short-papers) and a [long paper](https://acl2018.org/call-for-papers#long-papers), with sections similar to the following:
+This will be a final report in the style of a research paper. Aim for 4-6 pages in length, or somewhere between an ACL [short paper](https://acl2020.org/calls/papers/#short-papers) and a [long paper](https://acl2020.org/calls/papers/#long-papers), with sections similar to the following:
 - **Abstract**
 - **Introduction** (motivation for your work)
 - **Background** (literature review, or related work)
@@ -152,7 +161,7 @@ This will be a final report in the style of a research paper. Aim for 4-6 pages 
 
 **Privacy:** If you don't want us to release your report publicly, please indicate that in the form below.
 
-Please submit your PDF (and your project's code) to your course GitHub and then complete [this form](https://forms.gle/ZfCokLeBqTppkkxD9). 
+Please submit your PDF (and your project's code) to your course GitHub and then complete [this form (tbd)]().
 
 We will be providing feedback to teams based on the rubric above.  This will take us some time (potentially up to a month after the deadline) and likely term grades will be released ahead of that feedback.
 

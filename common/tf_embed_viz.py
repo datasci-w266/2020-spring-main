@@ -4,7 +4,7 @@ from __future__ import division
 import sys, os
 
 import tensorflow as tf
-from tensorflow.contrib.tensorboard.plugins import projector
+from tensorboard.plugins import projector
 
 def mkdirp(dirname):
     if not os.path.isdir(dirname):

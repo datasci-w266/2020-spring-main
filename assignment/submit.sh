@@ -16,6 +16,12 @@ DEFAULT_ASSIGNMENT="0"
 FORCE="false"
 TARGET_BRANCH="master"
 
+# Change to assignment dir
+dir=$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
+pushd $dir
+
+
+
 function validate_assignment() {
   grep -F -q -x "$1" <<EOF
 0
